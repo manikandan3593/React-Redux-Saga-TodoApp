@@ -1,0 +1,29 @@
+.todoList {
+  height: 500px;
+  overflow: auto;
+}
+
+#todoTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: 50px auto;
+    height: 500px;
+    cursor: pointer;
+  }
+  
+  #todoTable td, #todoTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #todoTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #todoTable tr:hover {background-color: #ddd;}
+  
+  #todoTable thead tr {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
